@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.gsrathoreniks.bookhomeui.Login">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/logo"
+        android:id="@+id/imageView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Username"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:paddingLeft="40dp"
+        android:textSize="17dp"
+        android:backgroundTint="#fff"
+        android:id="@+id/editText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:textColor="#fff"
+        android:textSize="17dp"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/user" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#fff"
+        android:paddingLeft="40dp"
+        android:hint="Password"
+        android:textSize="17dp"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:backgroundTint="#fff"
+        android:id="@+id/editText2" />
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignTop="@+id/editText2"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/password" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginBottom="50dp"
+        android:text="LOGIN"
+        android:textColor="#fff"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignTop="@+id/imageView3"
+        android:text="SIGNUP"
+        android:textColor="#fff"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignTop="@+id/imageView3"
+        android:src="@drawable/rect" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/rect" />
+
+
+</RelativeLayout>
